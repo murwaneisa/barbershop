@@ -6,37 +6,48 @@ import {
   FaSpotify,
   FaTwitter,
   FaYoutube,
+  FaTiktok,
 } from "react-icons/fa";
+import Image from "next/image";
 
 export const SocialMediaLinks = (props) => (
   <ButtonGroup variant="ghost" {...props}>
     <IconButton
       as="a"
-      href="https://www.facebook.com/EboKrdumofficial"
+      href="#"
       aria-label="Facebook"
       color="blue.400"
       icon={<FaFacebook fontSize="20px" />}
     />
     <IconButton
       as="a"
-      href="https://www.instagram.com/ebokrdum/"
+      href="#"
       aria-label="Instagram"
       color="#E1306C"
       icon={<FaInstagram fontSize="20px" />}
     />
     <IconButton
       as="a"
-      href="https://twitter.com/EKrdum"
+      href="#"
       aria-label="Twitter"
       color="blue.300"
       icon={<FaTwitter fontSize="20px" />}
     />
     <IconButton
       as="a"
-      href="https://www.youtube.com/channel/UCtQCeThNAGW_5MSRdFYX2bQ"
+      href="#"
       aria-label="YouTube"
       color="#FF0000"
       icon={<FaYoutube fontSize="20px" />}
+    />
+
+    <IconButton
+      as="a"
+      href="#"
+      aria-label="YouTube"
+      _hover={{ color: "#000000", bg: "#ffffff" }}
+      color="#ffffff"
+      icon={<FaTiktok fontSize="18px" />}
     />
   </ButtonGroup>
 );

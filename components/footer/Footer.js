@@ -16,7 +16,7 @@ const Footer = () => {
       role="contentinfo"
       mx="auto"
       w="100vw"
-      py="12"
+      py="1"
       px={{
         base: "4",
         md: "8",
@@ -35,7 +35,7 @@ const Footer = () => {
           }}
           alignItems="center"
         >
-          <Box flex="1">
+          <Box>
             <Link href="/">
               <a>
                 <Image
